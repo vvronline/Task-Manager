@@ -1,0 +1,66 @@
+body{
+  background-image: linear-gradient(to right, #c94b4b, #4b134f);
+
+}
+h1{
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.container{
+    
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    
+}
+
+.data{
+    display: grid;
+    grid-template-columns: 80% 20% 28%;
+    gap: 2%;
+    color: white;
+    font-family: sans-serif;   
+    align-items: center;
+   
+}
+button{
+cursor: pointer;
+border: none;
+background-color: aliceblue;
+border-radius: 3px;
+font-family: monospace;
+font-weight: 500;
+height: 40%;
+
+}
+.inputbox{
+    display: flex;
+    gap: 2%;
+}
+input{
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+  
+    
+}
+#submit{
+   background-color: rgb(128, 204, 13);
+   color: white;
+   height:50% ;
+   
+}
+
+
+.hide{
+    display: none;
+}
+ 
+.done{
+    text-decoration: line-through;
+    color: green;
+  font-weight: bold;
+}
